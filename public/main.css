@@ -1,0 +1,15 @@
+.body {
+    padding-bottom: 0;
+}
+
+.iconImg {
+    opacity: 0.5;
+/*    padding: 50px;*/
+
+/*    border-radius: 5px;*/
+/*    background: #8AC007;*/
+/*    padding: 20px; */
+/*    width: 200px;*/
+/*    height: 150px; */
+    box-shadow: 3px 3px;
+}
