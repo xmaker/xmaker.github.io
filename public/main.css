@@ -1,4 +1,6 @@
-
+body {
+    
+}
 
 .iconImg {
     opacity: 0.5;
@@ -14,12 +16,15 @@
 
 #logo_title {
     
+    font-size: 1000%;
+    color:white;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 #main {
     padding-top: 70px;
-    
+    background-image: url(image/1920x1080-light-sky-blue-solid-color-background.jpg);
 }
 
 #bottombar {
@@ -31,6 +36,7 @@
     margin: 0 auto;
     max-width: 500px;
     align-content: center;
+    
     
 }
 
@@ -52,5 +58,7 @@ footer .separator {
     
     width: 1170;
 }
+
+
 
 
