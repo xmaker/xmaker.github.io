@@ -47,9 +47,9 @@ h1.subtitle {
 
 h3.subtitle {
     font-size: 200%;
-    color:gray;
+    color:black;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto-bold', sans-serif;
 }
 
 #logo_title {
@@ -109,19 +109,25 @@ footer .separator {
     width: 1170;
 }
 
-/*
 .workitem {
-    width : 80%;
-    margin-top: 30px;
-        box-shadow: 2px 2px 2px grey;
-    background-color: LightGray;
-}
+/*    width : 80%;*/
+/*    margin-top: 30px;*/
+/*        box-shadow: 2px 2px 2px grey;*/
+    
+/*
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
 */
+/*    background-color: rgba(23,23,23,0.5);*/
+}
 
 .thumbnail {
 /*    background-color: rgba(135, 206, 250, 1.0);*/
-    background-color: rgba(234, 124, 49, 0.2);
+    background-color: rgba(234, 124, 49, 0.0);
 /*    border-bottom-style: hidden;*/
+    border-color : rgba(0,0,0,0);
 }
 
 #map {
