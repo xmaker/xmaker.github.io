@@ -15,6 +15,8 @@ body {
 }
 
 section#home {
+    margin-top: 50px;
+    padding-top: 0px;
     background-image: url(image/tabitha-732545_1280.jpg);
 }
 
@@ -22,9 +24,15 @@ section#work {
     background-color: rgba(252, 195, 26, 1.0);
 }
 
+
 section#about {
     background-color: rgba(248, 120, 119, 1.0);
     
+}
+
+section#about{
+    color: white;
+    text-align: center;
 }
 section#contact {
     background-color: rgba(71, 144, 212, 1.0);
@@ -37,13 +45,24 @@ h1.subtitle {
     font-family: 'Roboto-bold', sans-serif;
 }
 
+h3.subtitle {
+    font-size: 200%;
+    color:gray;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
 #logo_title {
     
-    font-size: 1000%;
+    font-size: 800%;
     color:white;
 /*    text-shadow: 5px 5px;*/
     text-align: center;
     font-family: 'Roboto', sans-serif;
+}
+
+#logo_title h3 {
+    text-align: center;
 }
 
 #logo_description {
@@ -101,7 +120,8 @@ footer .separator {
 
 .thumbnail {
 /*    background-color: rgba(135, 206, 250, 1.0);*/
-    background-color: rgba(10, 10, 10, 0);
+    background-color: rgba(234, 124, 49, 0.2);
+/*    border-bottom-style: hidden;*/
 }
 
 #map {
