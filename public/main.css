@@ -1,5 +1,5 @@
-.body {
-    padding-bottom: 0;
+body {
+    
 }
 
 .iconImg {
@@ -13,3 +13,52 @@
 /*    height: 150px; */
     box-shadow: 3px 3px;
 }
+
+#logo_title {
+    
+    font-size: 1000%;
+    color:white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main {
+    padding-top: 70px;
+    background-image: url(image/1920x1080-light-sky-blue-solid-color-background.jpg);
+}
+
+#bottombar {
+    
+}
+
+#logoImg {
+        width: 50%;
+    margin: 0 auto;
+    max-width: 500px;
+    align-content: center;
+    
+    
+}
+
+footer {
+  background: #38434f;
+  padding: 60px 0 20px;
+  font-size: 16px;
+  color: rgba(255,255,255,.4);
+}
+
+footer .separator {
+  background: rgba(255,255,255,.15);
+  height: 1px;
+  margin: 30px 0;
+}
+
+@media (min-width:992px)
+.container {
+    
+    width: 1170;
+}
+
+
+
+
