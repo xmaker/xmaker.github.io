@@ -36,6 +36,7 @@ section#about{
 }
 section#contact {
     background-color: rgba(71, 144, 212, 1.0);
+    padding-bottom: 20px;
 }
 
 h1.subtitle {
@@ -121,6 +122,11 @@ footer .separator {
     margin-right: 3px;
 */
 /*    background-color: rgba(23,23,23,0.5);*/
+    
+}
+
+.workcon {
+    align-content: center;
 }
 
 .thumbnail {
@@ -133,4 +139,9 @@ footer .separator {
 #map {
     width: 100%;
     height: 400px;
+}
+
+#map_canvas {
+    height: 400px;
+    
 }
